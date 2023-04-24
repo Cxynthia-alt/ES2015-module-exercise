@@ -3,7 +3,6 @@ import { choice, remove } from './helpers.js'
 import foods from './foods.js'
 import './App.css';
 
-
 function App() {
   let selectedFood = choice(foods)
   remove(foods, selectedFood)
